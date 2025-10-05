@@ -9,3 +9,4 @@ spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 spring.jpa.open-in-view=false
 springdoc.api-docs.enabled=false
+server.port=2003
