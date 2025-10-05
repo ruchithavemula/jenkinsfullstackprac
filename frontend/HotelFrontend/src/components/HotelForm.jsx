@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { API_URL } from "./components/config.js";
+import { API_URL } from "./config.js";
+
 
 const HotelForm = ({ fetchHotels, editHotel, setEditHotel }) => {
   const [hotel, setHotel] = useState({ name: "", location: "", rooms: "", price: "" });

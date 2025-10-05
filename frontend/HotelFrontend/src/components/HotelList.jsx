@@ -1,5 +1,6 @@
 import React from "react";
-import { API_URL } from "./components/config.js";
+import { API_URL } from "./config.js";
+
 
 const HotelList = ({ hotels, fetchHotels, setEditHotel }) => {
   const handleDelete = async (id) => {
